@@ -1,4 +1,4 @@
-# advanced_node_auth
+# Advanced Node Authentication
 This is a complete node authentication project with register, login, and reset password via email.
 
 I made this project following this video of <a href="https://github.com/LloydJanseVanRensburg">Lloyd JanseVan Rensburg</a> of his Youtube channel.
