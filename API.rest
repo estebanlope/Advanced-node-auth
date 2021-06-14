@@ -1,0 +1,56 @@
+// Register request
+POST http://localhost:4000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "el2010",
+  "email": "estebanlr2010@gmail.com",
+  "password": "123456"
+}
+
+###
+// Login request
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "estebanlr2010@gmail.com",
+  "password": "123456"
+}
+
+###
+// ForgotPassword request
+POST http://localhost:4000/api/auth/forgotpassword
+Content-Type: application/json
+
+{
+  "email": "estebanlr2010@gmail.com"
+}
+
+###
+// ResetPassword request
+PUT  http://localhost:4000/api/auth/resetpassword/9f2e5d8f728e5712c9349dbfd3229f06369a54cd 
+Content-Type: application/json
+
+{
+  "password": "111111"
+}
+
+###
+// All users
+GET http://localhost:4000/api/auth/allusers
+
+###
+// DeleteUser request
+DELETE http://localhost:4000/api/auth/deleteuser
+Content-Type: application/json
+
+{
+  "email": "estebanlr2010@gmail.com"
+}
+
+###
+// Protected Data
+GET http://localhost:4000/api/private
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwYzZhMWQ3OGU2NzU4MjVjOGIwNDhkZSIsImlhdCI6MTYyMzYzMDI5NywiZXhwIjoxNjIzNjMwODk3fQ.TMFD-6vF9lesFAHsuuIwIcdbaxr_VVPB4bKMpvYmKI8
