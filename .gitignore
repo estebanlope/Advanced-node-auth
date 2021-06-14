@@ -13,6 +13,7 @@ node_modules/
 /build
 
 # misc
+/API.rest
 config.env
 API.rest
 .DS_Store

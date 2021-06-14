@@ -3,8 +3,8 @@ POST http://localhost:4000/api/auth/register
 Content-Type: application/json
 
 {
-  "username": "el2010",
-  "email": "estebanlr2010@gmail.com",
+  "username": "test1",
+  "email": "test1@gmail.com",
   "password": "123456"
 }
 
@@ -14,7 +14,7 @@ POST http://localhost:4000/api/auth/login
 Content-Type: application/json
 
 {
-  "email": "estebanlr2010@gmail.com",
+  "email": "test1@gmail.com",
   "password": "123456"
 }
 
@@ -24,7 +24,7 @@ POST http://localhost:4000/api/auth/forgotpassword
 Content-Type: application/json
 
 {
-  "email": "estebanlr2010@gmail.com"
+  "email": "test1@gmail.com"
 }
 
 ###
@@ -46,7 +46,7 @@ DELETE http://localhost:4000/api/auth/deleteuser
 Content-Type: application/json
 
 {
-  "email": "estebanlr2010@gmail.com"
+  "email": "test1@gmail.com"
 }
 
 ###
