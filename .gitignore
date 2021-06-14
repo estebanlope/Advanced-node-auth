@@ -14,6 +14,7 @@ node_modules/
 
 # misc
 config.env
+API.rest
 .DS_Store
 .env.local
 .env.development.local
